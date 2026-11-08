@@ -1,0 +1,26 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+coverage/
+
+# Private configuration (keep the setup template)
+.env
+.env.*
+!.env.example
+
+# Local database, uploads, and database backups
+.data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# Test output and logs
+test-results/
+playwright-report/
+blob-report/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
